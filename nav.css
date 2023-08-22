@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navbar_stiky {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 180px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    color: blue;
+    padding-bottom: 6px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li::before {
+    content: "";
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transition: all 0.5s;
+    background-color: whitesmoke;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    border-radius: 20px 15px 0px 20px;
+    font-size: 16px;
+    background-color: black;
+    cursor: pointer;
+    color: orange;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: color 5s;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px #1E7C6E;
+}
+.navbar button:hover
+{
+    width: 10%;
+}
+
+
+.ChangeBgcolor {
+    background-color: yellow;
+}
+
+
+/*nav bar*/
+
+.box
+{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    position: fixed;
+}
+.menu
+{
+    /* position: fixed; */
+     padding: 100px; 
+  align-items: center;
+  /* margin: auto; */
+   width: 100%; 
+     height: 100vh; 
+
+}
+h1
+{
+    color: white;
+}
+
+
+.page_seven {
+    background-color: black;
+}
+
+.page_seven_footer {
+    color: white;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.page_seven_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_seven_box h2 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.page_seven_box img {
+    margin-bottom: 20px;
+     box-shadow: 0px 0px 5px 5px lightyellow;
+    transition: transform 3s;
+}
+
+.page_seven_box img:hover{
+    transform: scale(1.05);
+}
+
+
+.page_seven_box p {
+    margin: 10px 0;
+}
+
+.page_seven_box a {
+    margin-top: 30px;
+    *margin-bottom: 10px;
+    *font-weight: normal;
+    color: white;
+}
+
+.page_seven_social_icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social_icons h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.social_icons i {
+    font-size: 22px;
+    color: yellowgreen;
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: black;
+    color: yellowgreen;
+} 
+.page_seven_social_icons i  hover
+{
+    color: yellowgreen;
+}   
